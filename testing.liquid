@@ -1,0 +1,4 @@
+{% assign fruits = "orange,apple,peach" | split: ',' %}
+{% for fruit in fruits %}
+  {{ fruit }}
+{% endfor %}
